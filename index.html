@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Grāmatu vērtēšana</h1>
-    
-</body>
+    <br />
+    <form>
+      <br />
+      <lable for="name">Vārds</lable>
+      <input type="text" id="name" name="name" /><br />
+      <lable for="surname">Uzvārds</lable>
+      <input type="text" id="surname" name="surname" /><br />
+      <lable for="level">Līmenis</lable>
+      <select name="level" id="level">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option></select
+      ><br />
+      <lable for="title">Nosaukums</lable>
+      <input type="text" id="title" name="title" /><br />
+      <lable for="description">Apraksts</lable>
+      <textarea id="description" name="description"></textarea><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
 </html>
