@@ -9,13 +9,13 @@
   <body>
     <h1>Grāmatu vērtēšana</h1>
     <br />
-    <form>
+    <form action="submit.php" method="POST">
       <br />
-      <label for="name">Vārds</lable>
+      <label for="name">Vārds</label>
       <input type="text" id="name" name="name" /><br />
-      <label for="surname">Uzvārds</lable>
+      <label for="surname">Uzvārds</label>
       <input type="text" id="surname" name="surname" /><br />
-      <label for="level">Līmenis</lable>
+      <label for="level">Līmenis</label>
       <select name="level" id="level">
         <option value="1">Nelasāma</option>
         <option value="2">Slikta</option>
@@ -23,11 +23,13 @@
         <option value="4">Laba</option>
         <option value="5">Lieliska</option></select
       ><br />
-      <label for="title">Nosaukums</lable>
+      <label for="title">Nosaukums</label>
       <input type="text" id="title" name="title" /><br />
-      <label for="description">Apraksts</lable>
+      <label for="description">Apraksts</label>
       <textarea id="description" name="description"></textarea><br />
-      <button type="submit">Submit</button>
+      <input type="submit" />
     </form>
+
+    <a href="/list.php">Uz uz Atsauces sadaļu</a> <br />
   </body>
 </html>
